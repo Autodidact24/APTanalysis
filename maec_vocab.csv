@@ -1,0 +1,222 @@
+Label,Enumeration Value,Description
+ActionObjectAssociationType,input,Specifies that the Associated_Object field serves as an input to the Action. This includes cases where an Object is used by the Action or an existing Object is modified by the Action.
+ActionObjectAssociationType,output,Specifies that the Associated_Object field serves as an output to the Action. This includes cases where the Object is created anew by the Action or otherwise returned by the Action.
+ActionObjectAssociationType,side-effect,Specifies that the Associated_Object field serves as a side-effect resulting from the Action. This includes cases where the Object is modified indirectly by the Action.
+DebuggingActionName,check for remote debugger,Specifies the defined Action of checking for the presence of a remote debugger.
+DebuggingActionName,check for kernel debugger,Specifies the defined Action of checking for the presence of a kernel debugger.
+DeviceDriverActionName,load and call driver,Specifies the defined Action of loading a driver into a system and then calling the loaded driver.
+DeviceDriverActionName,load driver,Specifies the defined Action of loading a driver into a system.
+DeviceDriverActionName,unload driver,Specifies the defined Action of unloading a driver from a system.
+DeviceDriverActionName,emulate driver,Specifies the defined Action of emulating an existing driver on a system.
+DirectoryActionName,create directory,Specifies the defined Action of creating a new directory on the filesystem.
+DirectoryActionName,delete directory,Specifies the defined Action of deleting an existing directory on the filesystem.
+DirectoryActionName,monitor directory,Specifies the defined Action of monitoring an existing directory on the filesystem for changes.
+DirectoryActionName,hide directory,Specifies the defined Action of hiding an existing directory.
+DiskActionName,get disk type,Specifies the defined Action of getting the disk type.
+DiskActionName,get disk attributes,"Specifies the defined Action of querying the attributes of a disk, such as the amount of available free space."
+DiskActionName,mount disk,Specifies the defined Action of mounting an existing file system to a mounting point.
+DiskActionName,unmount disk,Specifies the defined Action of unmounting an existing file system from a mounting point.
+DiskActionName,emulate disk,Specifies the defined Action of emulating an existing disk.
+DiskActionName,list disks,Specifies the defined Action of listing all disks available on a system.
+DiskActionName,monitor disks,Specifies the defined Action of monitoring an existing disk for changes.
+DNSActionName,send dns query,Specifies the defined Action of sending a DNS query
+DNSActionName,send reverse dns lookup,Specifies the defined Action of sending a reverse DNS lookup
+FileActionName,create file,Specifies the defined Action of creating a new file.
+FileActionName,delete file,Specifies the defined Action of deleting an existing file.
+FileActionName,copy file,Specifies the defined Action of copying an existing file from one location to another.
+FileActionName,create file symbolic link,Specifies the defined Action of creating a symbolic link to an existing file.
+FileActionName,find file,Specifies the defined Action of searching for an existing file.
+FileActionName,get file attributes,Specifies the defined Action of getting the attributes of an existing file.
+FileActionName,set file attributes,Specifies the defined Action of setting the file attributes for an existing file.
+FileActionName,lock file,Specifies the defined Action of locking an existing file.
+FileActionName,unlock file,Specifies the defined Action of unlocking an existing file.
+FileActionName,modify file,Specifies the defined Action of modifying an existing file in some manner.
+FileActionName,move file,Specifies the defined Action of moving an existing file from one location to another.
+FileActionName,open file,Specifies the defined Action of opening an existing file for reading or writing.
+FileActionName,read from file,Specifies the defined Action of reading from an existing file.
+FileActionName,write to file,Specifies the defined Action of writing to an existing file.
+FileActionName,rename file,Specifies the defined Action of renaming an existing file.
+FileActionName,create file alternate data stream,Specifies the defined Action of creating an alternate data stream in an existing file.
+FileActionName,send control code to file,Specifies the defined Action of sending a control code to a file.
+FileActionName,create file mapping,Specifies the defined Action of creating a new file mapping object.
+FileActionName,open file mapping,Specifies the defined Action of opening an existing file mapping object.
+FileActionName,execute file,Specifies the defined Action of executing an existing file.
+FileActionName,hide file,Specifies the defined Action of hiding an existing file.
+FileActionName,close file,Specifies the defined Action of closing an existing file that previously opened for reading or writing.
+FTPActionName,connect to ftp server,Specifies the defined Action of connecting to an existing FTP server.
+FTPActionName,disconnect from ftp server,Specifies the defined Action of disconnecting from an existing FTP server.
+FTPActionName,send ftp command,Specifies the defined Action of sending a command on an FTP server connection
+GUIActionName,create window,Specifies the defined Action of creating a new window.
+GUIActionName,kill window,Specifies the defined Action of killing an existing window.
+GUIActionName,create dialog box,Specifies the defined Action of creating a new dialog box.
+GUIActionName,enumerate windows,Specifies the defined Action of enumerating all open windows
+GUIActionName,find window,Specifies the defined Action of search for a particular window.
+GUIActionName,hide window,Specifies the defined Action of hiding an existing window.
+GUIActionName,show window,Specifies the defined Action of showing an existing window
+HookingActionName,add system call hook,Specifies the defined Action of adding a new system call hook.
+HookingActionName,add windows hook,Specifies the defined Action of adding a new Windows application-defined hook procedure.
+HookingActionName,hide hook,Specifies the defined action of hiding an existing hook.
+HTTPActionName,send http get request,Specifies the defined Action of sending an HTTP GET client request to an existing server.
+HTTPActionName,send http head request,Specifies the defined Action of sending an HTTP HEAD client request to an existing server.
+HTTPActionName,send http post request,Specifies the defined Action of sending an HTTP HEAD client request to an existing server.
+HTTPActionName,send http put request,Specifies the defined Action of sending an HTTP PUT client request to an existing server.
+HTTPActionName,send http delete request,Specifies the defined Action of sending an HTTP DELETE client request to an existing server.
+HTTPActionName,send http trace request,Specifies the defined Action of sending an HTTP TRACE client request to an existing server.
+HTTPActionName,send http options request,Specifies the defined Action of sending an HTTP OPTIONS client request to an existing server.
+HTTPActionName,send http connect request,Specifies the defined Action of sending an HTTP CONNECT client request to an existing server.
+HTTPActionName,send http patch request,Specifies the defined Action of sending an HTTP PATCH client request to an existing server.
+HTTPActionName,receive http response,Specifies the defined Action of receiving an HTTP server response for a prior HTTP request.
+IPCActionName,create named pipe,Specifies the defined Action of creating a new named pipe.
+IPCActionName,delete named pipe,Specifies the defined Action of deleting an existing named pipe.
+IPCActionName,connect to named pipe,Specifies the defined Action of connecting to an existing named pipe.
+IPCActionName,disconnect from named pipe,Specifies the defined Action of disconnecting from an existing named pipe.
+IPCActionName,read from named pipe,Specifies the defined Action of reading some data from an existing named pipe.
+IPCActionName,write to named pipe,Specifies the defined Action of writing some data to an existing named pipe.
+IPCActionName,create mailslot,Specifies the defined Action of creating a new named mailslot.
+IPCActionName,read from mailslot,Specifies the defined Action of reading some data from an existing named mailslot.
+IPCActionName,write to mailslot,Specifies the defined Action of writing some data to an existing named mailslot.
+IRCActionName,connect to irc server,Specifies the defined Action of connecting to an existing IRC server.
+IRCActionName,disconnect from irc server,Specifies the defined Action of disconnecting from an existing IRC server.
+IRCActionName,set irc nickname,Specifies the defined Action of setting an IRC nickname on an IRC server.
+IRCActionName,join irc channel,Specifies the defined Action of joining a channel on an IRC server.
+IRCActionName,leave irc channel,Specifies the defined Action of leaving a channel on an IRC server.
+IRCActionName,send irc private message,Specifies the defined Action of sending a private message to another user on an IRC server.
+IRCActionName,receive irc private message,Specifies the defined Action of receiving a private message from another user on an IRC server.
+LibraryActionName,enumerate libraries,Specifies the defined Action of enumerating the libraries used by a process.
+LibraryActionName,free library,Specifies the defined Action of freeing a library previously loaded into the address space of the calling process.
+LibraryActionName,load library,Specifies the defined Action of loading a library into the address space of the calling process.
+LibraryActionName,get function address,Specifies the defined Action of getting the address of an exported function or variable from a library.
+LibraryActionName,call library function,Specifies the defined action of calling a function exported by a library.
+NetworkActionName,open port,Specifies the defined Action of opening a network port.
+NetworkActionName,close port,Specifies the defined Action of closing a network port.
+NetworkActionName,connect to ip,Specifies the defined Action of connecting to an IP address.
+NetworkActionName,disconnect from ip,Specifies the defined Action of disconnecting from a previously established connection with an IP address.
+NetworkActionName,connect to url,Specifies the defined Action of connecting to a URL.
+NetworkActionName,connect to socket address,"Specifies the defined Action of connecting to a socket address, consisting of an IP address and port number."
+NetworkActionName,download file,Specifies the defined Action of downloading a file from a remote location.
+NetworkActionName,upload file,Specifies the defined Action of uploading a file to a remote location.
+NetworkActionName,listen on port,Specifies the defined Action of listening on a specific port.
+NetworkActionName,send email message,Specifies the defined Action of sending an email message.
+NetworkActionName,send icmp request,Specifies the defined Action of sending an ICMP request.
+NetworkActionName,send network packet,Specifies the defined action of sending a packet on a network.
+NetworkActionName,receive network packet,Specifies the defined action of receiving a packet on a network.
+NetworkShareActionName,add connection to network share,Specifies the defined Action of adding a connection to an existing network share.
+NetworkShareActionName,add network share,Specifies the defined Action of adding a new network share on a server.
+NetworkShareActionName,delete network share,Specifies the defined Action of deleting an existing network share on a server.
+NetworkShareActionName,connect to network share,Specifies the defined Action of connecting to an existing network share.
+NetworkShareActionName,disconnect from network share,Specifies the defined Action of disconnecting from an existing network share.
+NetworkShareActionName,enumerate network shares,Specifies the defined Action of enumerating the available shared resources on a server.
+ProcessActionName,create process,Specifies the defined Action of creating a new process.
+ProcessActionName,kill process,Specifies the defined Action of killing an existing process.
+ProcessActionName,create process as user,Specifies the defined Action of creating a new process in the security context of a specified user.
+ProcessActionName,enumerate processes,Specifies the defined Action of enumerating all of the running processes on a system.
+ProcessActionName,open process,Specifies the defined Action of opening an existing process.
+ProcessActionName,flush process instruction cache,Specifies the defined Action of flushing the instruction cache of an existing process.
+ProcessActionName,get process current directory,Specifies the defined Action of getting the current directory of an existing process.
+ProcessActionName,set process current directory,Specifies the defined Action of setting the current directory of an existing process.
+ProcessActionName,get process environment variable,Specifies the defined Action of getting an environment variable used by an existing process.
+ProcessActionName,set process environment variable,Specifies the defined Action of setting an environment variable used by an existing process.
+ProcessActionName,sleep process,Specifies the defined Action of sleeping an existing process for some period of time.
+ProcessActionName,get process startupinfo,Specifies the defined Action of getting the STARTUPINFO struct associated with an existing process
+ProcessMemoryActionName,allocate process virtual memory,Specifies the defined Action of allocating some virtual memory region in an existing process.
+ProcessMemoryActionName,free process virtual memory,Specifies the defined Action of freeing some virtual memory region from an existing process.
+ProcessMemoryActionName,modify process virtual memory,Specifies the defined Action of modifying the protection on a memory region in the virtual address space
+ProcessMemoryActionName,protection,of an existing process.
+ProcessMemoryActionName,read from process memory,Specifies the defined Action of reading from a memory region of an existing process
+ProcessMemoryActionName,write to process memory,Specifies the defined Action of writing to a memory region of an existing process.
+ProcessMemoryActionName,map file into process,Specifies the defined Action of mapping an existing file into the address space of the calling process.
+ProcessMemoryActionName,upmap file from process,Specifies the defined Action of unmapping an existing file from the address space of the calling process.
+ProcessMemoryActionName,map library into process,Specifies the defined Action of mapping a library into the address space of the calling process
+ProcessThreadActionName,create thread,Specifies the defined Action of creating a new thread in the virtual address space of the calling process.
+ProcessThreadActionName,kill thread,Specifies the defined Action of killing a thread existing in the virtual address space of the calling process.
+ProcessThreadActionName,create remote thread in process,Specifies the defined Action of creating a thread that runs in the virtual address space of another existing process.
+ProcessThreadActionName,enumerate threads,Specifies the defined Action of enumerating all threads in the calling process.
+ProcessThreadActionName,get thread username,Specifies the defined Action of getting the name or ID of the user associated with an existing thread.
+ProcessThreadActionName,impersonate process,Specifies the defined Action of a thread in the calling process impersonating the security context of another existing process.
+ProcessThreadActionName,revert thread to self,Specifies the defined Action of reverting an existing thread to its own security context.
+ProcessThreadActionName,get thread context,Specifies the defined Action of getting the context structure (containing processor-specific register data) of an existing thread.
+ProcessThreadActionName,set thread context,Specifies the defined Action of setting the context structure (containing processor-specific register data) for an existing thread.
+ProcessThreadActionName,queue apc in thread﻿,Specifies the defined Action of queuing a new Asynchronized Procedure Call (APC) in the context of an existing thread.
+RegistryActionName,create registry key,Specifies the defined Action of creating a new registry key.
+RegistryActionName,delete registry key,Specifies the defined Action of deleting an existing registry key.
+RegistryActionName,open registry key,Specifies the defined Action of opening an existing registry key.
+RegistryActionName,close registry key,Specifies the defined Action of closing a handle to an existing registry key.
+RegistryActionName,create registry key value,Specifies the defined Action of creating a new named value under an existing registry key.
+RegistryActionName,delete registry key value,Specifies the defined Action of deleting an existing named value under an existing registry key.
+RegistryActionName,enumerate registry key subkeys,Specifies the defined Action of enumerating the registry key subkeys under an existing registry key.
+RegistryActionName,enumerate registry key values,Specifies the defined Action of enumerating the named values under an existing registry key.
+RegistryActionName,get registry key attributes,Specifies the defined Action of getting the attributes of an existing registry key.
+RegistryActionName,read registry key value,Specifies the defined Action of reading an existing named value of an existing registry key.
+RegistryActionName,modify registry key value,Specifies the defined Action of modifying an existing named value of an existing registry key.
+RegistryActionName,modify registry key,Specifies the defined Action of modifying an existing registry key.
+RegistryActionName,monitor registry key,Specifies the defined Action of monitoring an existing registry key for changes.
+SocketActionName,create service,Specifies the defined Action of creating a new service.
+SocketActionName,delete service,Specifies the defined Action of deleting an existing service.
+SocketActionName,start service,Specifies the defined Action of starting an existing service.
+SocketActionName,stop service,Specifies the defined Action of stopping an existing service.
+SocketActionName,enumerate services,Specifies the defined Action of enumerating a specific set of services on a system.
+SocketActionName,modify service configuration,Specifies the defined Action of modifying the configuration parameters of an existing service.
+SocketActionName,open service,Specifies the defined Action of opening an existing service.
+SocketActionName,send control code to service,Specifies the defined Action of sending a control code to an existing service.
+SocketActionName,accept socket connection,Specifies the defined Action of accepting a socket connection.
+SocketActionName,bind address to socket,Specifies the defined Action of binding a socket address to a socket.
+SocketActionName,create socket,Specifies the defined Action of creating a new socket.
+SocketActionName,close socket,Specifies the defined Action of closing an existing socket.
+SocketActionName,connect to socket,Specifies the defined Action of connecting to an existing socket.
+SocketActionName,disconnect from socket,Specifies the defined Action of disconnecting from an existing socket.
+SocketActionName,listen on socket,Specifies the defined Action of listening on an existing socket.
+SocketActionName,send data on socket,"Specifies the defined Action of sending data on an existing, connected socket."
+SocketActionName,receive data on socket,Specifies the defined Action of receiving data on an existing socket
+SocketActionName,send data to address on socket,"Specifies the defined Action of sending data to a specified IP address on an existing, unconnected socket."
+SocketActionName,get host by address,Specifies the defined Action of getting information on a host from a local or remote host database by its IP address.
+SocketActionName,get host by name,Specifies the defined Action of getting information on a host from a local or remote host database by its name.
+SynchronizationActionName,create mutex,Specifies the defined Action of creating a new named mutex.
+SynchronizationActionName,delete mutex,Specifies the defined Action of deleting an existing named mutex.
+SynchronizationActionName,open mutex,Specifies the defined Action of opening an existing named mutex.
+SynchronizationActionName,release mutex,Specifies the defined Action of releasing ownership of an existing named mutex.
+SynchronizationActionName,create semaphore,Specifies the defined Action of creating a new named semaphore.
+SynchronizationActionName,delete semaphore,Specifies the defined Action of deleting an existing named semaphore.
+SynchronizationActionName,open semaphore,Specifies the defined Action of opening an existing named semaphore.
+SynchronizationActionName,release semaphore,Specifies the defined Action of releasing ownership of an existing named semaphore.
+SynchronizationActionName,create event,Specifies the defined Action of creating a new named event object.
+SynchronizationActionName,delete event,Specifies the defined Action of deleting an existing named event object.
+SynchronizationActionName,open event,Specifies the defined Action of opening an existing named event object.
+SynchronizationActionName,reset event,Specifies the defined Action of resetting an existing named event object to the non-signaled state.
+SynchronizationActionName,create critical section,Specifies the defined Action of creating a new critical section.
+SynchronizationActionName,delete critical section,Specifies the defined Action of deleting an existing critical section object.
+SynchronizationActionName,open critical section,Specifies the defined Action of opening an existing critical section object.
+SynchronizationActionName,release critical section,Specifies the defined Action of releasing an existing critical section object.
+SystemActionName,add scheduled task,Specifies the defined Action of adding a scheduled task to a system.
+SystemActionName,shutdown system,Specifies the defined Action of shutting down a system.
+SystemActionName,sleep system,Specifies the defined Action of sleeping a system for some period of time.
+SystemActionName,get elapsed system up time,Specifies the defined Action of getting the elapsed up-time for a system.
+SystemActionName,get netbios name,Specifies the defined Action of getting the NetBIOS name of a system.
+SystemActionName,set netbios name,Specifies the defined Action of setting the NetBIOS name of a system.
+SystemActionName,get system host name,Specifies the defined Action of getting the host name of a system.
+SystemActionName,set system host name,Specifies the defined Action of setting the system host name of a system.
+SystemActionName,get system time,"Specifies the defined Action of getting the system time of a system, represented in Coordinated Universal Time (UTC)."
+SystemActionName,set system time,"Specifies the defined Action of setting the system time for a system, represented in Coordinated Universal Time (UTC)."
+SystemActionName,get system local time,Specifies the defined Action of getting the local time of a system.
+SystemActionName,set system local time,Specifies the defined Action of setting the local time of a system.
+SystemActionName,get username,Specifies the defined Action of getting the username of the currently logged in user of a system.
+SystemActionName,enumerate system handles,Specifies the defined Action of enumerating all open handles on a system.
+SystemActionName,get system global flags,Specifies the defined Action of getting the enabled global flags on a system.
+SystemActionName,set system global flags,Specifies the defined Action of setting system global flags on a system.
+SystemActionName,get windows directory,Specifies the defined Action of getting the path to the Windows installation directory on a system.
+SystemActionName,get windows system directory,Specifies the defined Action of getting the path to the Windows \System directory on a system.
+SystemActionName,get windows temporary files directory,Specifies the defined Action of getting the path to the Windows Temporary Files Directory on a system.
+UserActionName,add user,Specifies the defined Action of adding a new user.
+UserActionName,delete user,Specifies the defined Action of deleting an existing user.
+UserActionName,enumerate users,Specifies the defined Action of enumerating all users.
+UserActionName,get user attributes,Specifies the defined Action of getting the attributes of an existing user.
+UserActionName,logon as user,Specifies the defined Action of logging on as a specific user.
+UserActionName,change password,Specifies the defined Action of changing an existing user's password.
+UserActionName,add user to group,Specifies the defined Action of adding an existing user to an existing group.
+UserActionName,remove user from group,Specifies the defined Action of removing an existing user from existing group.
+UserActionName,invoke user privilege,Specifies the defined Action of invoking a privilege given to an existing user.
+ImportanceType,high,Specifies that the field is of relative high importance.
+ImportanceType,medium,Specifies that the field is of relative medium importance.
+ImportanceType,low,Specifies that the field is of relative low importance.
+ImportanceType,informational,Specifies that the field is only informational in its importance.
+ImportanceType,numeric,"Specifies that the field has a numeric importance value, which is defined in another attribute or element."
+ImportanceType,unknown,Specifies that the relative importance for the field is unknown.
